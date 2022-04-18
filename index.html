@@ -7,13 +7,28 @@
     <title>Crypto Keeper</title>
 </head>
 <body>
-    <h1>Find the current value of a supported Cryptocurrency</h1>
-    <p>This will report the value of the chosen coin in USD</p>
-
-    <input type="text" value="" name="Coin">
-    <button>Find Coin Value</button>
-
-    <h2>$</h2>
+    <main class="app">
+        <h1>Find the current value of a supported Cryptocurrency</h1>
+        <p>This will report the value of the chosen coin in USD</p>
+    
+        <input type="text" value="" name="Coin">
+        <select name="currency" id="currency">
+            <option value="">--Please choose a currency--</option>
+            <option value="usd">usd</option>
+            <option value="cad">cad</option>
+            <option value="eur">eur</option>
+            <option value="gbp">gbp</option>
+            <option value="aud">aud</option>
+        </select>
+        <button>Find Coin Value</button>
+    
+        <h2></h2>
+    </main>
+    
+    <section class="info">
+        
+    </section>
+    
     <script src="main.js"></script>
 </body>
 </html>
